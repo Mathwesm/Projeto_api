@@ -1,0 +1,36 @@
+# Ignorar ambiente virtual
+venv/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Ignorar configurações do VS Code
+.vscode/
+
+# Ignorar banco de dados SQLite (se estiver usando)
+*.sqlite3
+*.db
+
+# Ignorar arquivos de dependências do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos gerados por Jupyter Notebook (se usar)
+.ipynb_checkpoints/
+
+# Ignorar dependências instaladas localmente
+pip-wheel-metadata/
+
+# Ignorar arquivos com a extensão .doc (Word)
+*.doc
+
+# Ignorar chaves de token
+.env
